@@ -14,6 +14,12 @@
   justify-content: space-between;
   align-items: center;
 }
+.header .nav .navber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
 .header .nav .navber ul {
   display: flex;
   list-style: none;
@@ -25,7 +31,20 @@
   text-decoration: none;
   display: block;
   color: #292929;
-  padding: 42px 24px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.header .nav .navber ul li a span {
+  color: #7ECAEB;
+  margin-left: 8px;
+  font-size: 15px;
+  transition: all 0.3s ease-in;
+}
+.header .nav .navber ul li a:hover span {
+  transform: rotate(90deg);
+  transition: all 0.3s ease-in;
 }
 .header .nav .navber ul .dropdown {
   position: relative;
@@ -76,7 +95,7 @@
 }
 .header .nav .nav-search-wrapper .nav-search-btn {
   border: 1.5px solid;
-  padding: 10px 20px;
+  padding: 0px 20px;
   border-radius: 50px;
   height: 64px;
   display: flex;
