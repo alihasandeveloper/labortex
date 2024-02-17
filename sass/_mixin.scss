@@ -1,0 +1,12 @@
+@mixin heading {
+    font-size: 64px;
+    color: $textColor;
+    line-height: 78px;
+    font-family: $headerFont;
+}
+
+@mixin sm {
+    @media only screen and (max-width: 480px) {
+        @content;
+    }
+}
