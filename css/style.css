@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-* {
+body {
   max-width: 1659px;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 .header .nav {
@@ -256,6 +256,11 @@
   text-decoration: none;
   border-radius: 50px;
   padding: 20px 44px;
+  transition: 0.8s;
+}
+.cta-area .cta-wrapper .section-title .service-btn-area .service-btn:hover {
+  background-color: #fff;
+  color: #292929;
 }
 .cta-area .cta-wrapper .section-title .service-btn-area .left-sticky-corner {
   position: absolute;
@@ -294,4 +299,56 @@
   bottom: 0;
   transform: rotate(180deg);
   z-index: 12;
+}
+
+.info-card {
+  height: 391px;
+  position: relative;
+  background-color: #D9EAFD;
+  overflow: hidden;
+  padding: 40px;
+  border-radius: 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.info-card .overlay {
+  position: absolute;
+  bottom: -20%;
+  right: -27%;
+  opacity: 0.8;
+  mix-blend-mode: soft-light;
+}
+.info-card .info-card-inner .content-wrapper .title-inner {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 46px;
+  list-style: -0.54px;
+  font-family: "Urbanist", sans-serif;
+}
+.info-card .info-card-inner .content-wrapper .content-inner {
+  margin-top: 18px;
+}
+.info-card .info-card-inner .content-wrapper .content-inner p {
+  font-size: 18px;
+  font-family: "Questrial", sans-serif;
+  color: #525256;
+}
+.info-card .btn-inner {
+  display: inline-flex;
+}
+.info-card .btn-inner .theme-btn {
+  color: #292929;
+  text-decoration: none;
+  padding: 20px 44px;
+  background-color: #fff;
+  border-radius: 50px;
+  font-size: 20px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+  transition: all ease 0.8s;
+}
+.info-card .btn-inner .theme-btn:hover {
+  background: #292929;
+  color: #fff;
 }

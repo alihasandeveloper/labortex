@@ -10,3 +10,7 @@
         @content;
     }
 }
+
+@mixin transition {
+    transition: all ease 0.8s;
+}
