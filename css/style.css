@@ -188,3 +188,110 @@
 .home-page-container .home-page-content .home-page-article .btn-wrapper:hover .circle-arrow-btn {
   transform: rotate(0deg);
 }
+
+.cta-area {
+  margin: 100px 0;
+}
+.cta-area .cta-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta-area .cta-wrapper .section-title {
+  background-color: #CFF480;
+  padding: 40px;
+  border-radius: 35px 35px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  z-index: 10;
+  width: 27%;
+  height: 391px;
+}
+.cta-area .cta-wrapper .section-title .sec-content .title {
+  font-size: 24px;
+  line-height: normal;
+  letter-spacing: -0.34px;
+  margin-bottom: 8px;
+  font-family: "Questrial", sans-serif;
+  font-weight: 600;
+}
+.cta-area .cta-wrapper .section-title .sec-content .number {
+  font-size: 95px;
+  line-height: 104.5px;
+  letter-spacing: -1.425px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+}
+.cta-area .cta-wrapper .section-title .btn-inner {
+  padding: 20px 0;
+}
+.cta-area .cta-wrapper .section-title .btn-inner span {
+  font-size: 24px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.32px;
+  color: #292929;
+  text-align: start;
+}
+.cta-area .cta-wrapper .section-title .service-btn-area {
+  position: absolute;
+  background-color: #CFF480;
+  bottom: 0;
+  right: -220px;
+  height: 158px;
+  width: 221px;
+  border-radius: 0 35px 35px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta-area .cta-wrapper .section-title .service-btn-area .service-btn {
+  background-color: #292929;
+  font-family: "Urbanist", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 20px 44px;
+}
+.cta-area .cta-wrapper .section-title .service-btn-area .left-sticky-corner {
+  position: absolute;
+  transform: rotate(180deg);
+  top: -35px;
+  left: 1px;
+}
+.cta-area .cta-wrapper .image-wrapper {
+  width: 70.5%;
+  height: 391px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 35px;
+  position: relative;
+  z-index: 2;
+  margin-left: 20px;
+}
+.cta-area .cta-wrapper .image-wrapper .rectangle-shape {
+  width: 221px;
+  height: 183px;
+  background-color: #fff;
+  border-radius: 0 35px 0 0;
+  position: absolute;
+  bottom: 0;
+  z-index: 4;
+}
+.cta-area .cta-wrapper .image-wrapper .top-sticky-corner {
+  position: absolute;
+  transform: rotate(180deg);
+  top: -31px;
+}
+.cta-area .cta-wrapper .image-wrapper .right-sticky-corner {
+  position: absolute;
+  right: -34px;
+  bottom: 0;
+  transform: rotate(180deg);
+  z-index: 12;
+}
