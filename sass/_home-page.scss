@@ -1,0 +1,66 @@
+.home-page-container {
+    margin-top: 80px;
+     .home-page-content  {
+        .home-page-title  {
+            h2 {
+                font-size: 85px;
+                line-height: 104px;
+                letter-spacing: -1.42px;
+                font-family: $headerFont;
+                font-weight: 600;
+            }
+        }
+        .home-page-article  {
+            margin-top: 32px;
+            .home-page-desc {
+                margin-bottom: 32px;
+                p {
+                    font-size: 18px;
+                    font-family: $primaryFont;
+                    color: $grayColor;
+                }
+            }
+            .btn-wrapper {
+                display: inline-flex;
+                a {
+                    transition: ease 0.8s all;
+                }
+                .theme-btn {
+                    padding: 25px 44px;
+                    font-family: $headerFont;
+                    font-size: 20px;
+                    font-weight: 600;
+                    background-color: $primaryColor;
+                    color: $textColor;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    white-space: nowrap;
+                    border-radius: 50px;
+                }
+                .circle-arrow-btn {
+                    padding: 25px 30px;
+                    font-family: $headerFont;
+                    font-size: 20px;
+                    font-weight: 600;
+                    background-color: $primaryColor;
+                    color: $textColor;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    white-space: nowrap;
+                    border-radius: 50px;
+                    transform: rotate(-45deg);
+                }
+                &:hover {
+                    a {
+                        background-color: $textColor;
+                        color: #fff;
+                        transition: ease 0.8s all;
+                    }
+                    .circle-arrow-btn {
+                        transform: rotate(0deg);
+                    }
+                }
+            }
+        }
+     }
+}
